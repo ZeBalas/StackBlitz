@@ -16,6 +16,14 @@ const SideDrawer = ({ open, handleClose }) => {
           <ListItemIcon><HomeIcon /></ListItemIcon>
           <ListItemText primary="Home"/>
         </ListItem>
+        <ListItem button>
+          <ListItemIcon><HomeIcon /></ListItemIcon>
+          <ListItemText primary="Route #1"/>
+        </ListItem>
+        <ListItem button>
+          <ListItemIcon><HomeIcon /></ListItemIcon>
+          <ListItemText primary="Route #2"/>
+        </ListItem>
       </List>
     </Drawer>
   )

@@ -11,5 +11,8 @@ export default createMuiTheme({
     secondary: {
       main: SECONDARY_COLOR
     }
+  },
+  typography: {
+    fontFamily: 'ZCOOL QingKe HuangYou'
   }
 });
